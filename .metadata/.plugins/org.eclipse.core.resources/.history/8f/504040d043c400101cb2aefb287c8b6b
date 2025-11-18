@@ -1,0 +1,21 @@
+package Workshpo1;
+
+
+public class Rectangle {
+double width;
+double height;
+public Rectangle(Double width, double height) {
+	this.width=width;
+	this.height=height;
+}
+@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Height"+height+" /n width"+width;
+	}
+public static void main(String[] args) {
+	Rectangle rectangle=new Rectangle(5.0,3.0);
+	System.out.println(rectangle);
+}
+
+}

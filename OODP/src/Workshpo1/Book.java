@@ -1,0 +1,17 @@
+package Workshpo1;
+
+public class Book {
+String title="Object Orient Programming";
+String author="Aaditya";
+int year=2025;
+@Override
+	public String toString() {
+		
+		return "Title: " +title+", year: "+year+", Author: "+author;
+	}
+public static void main(String[] args) {
+	Book book=new Book();
+	System.out.println(book);
+}
+}
+
