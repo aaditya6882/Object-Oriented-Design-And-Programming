@@ -5,9 +5,9 @@ public class Main {
 		double[] score1 = { 7, 8, 4 };
 		double[] score2 = { 6, 5, 8 };
 		double[] score3 = { 5, 7, 6 };
-		Competitor c1 = new BeginnerCompetitor(1, new Name("Aditya", "Shiwakoti"), "India" , score1);
+		Competitor c1 = new BeginnerCompetitor(1, new Name("Ram", "Sharma"), "India" , score1);
 		Competitor c2 = new IntermediateCompetitor(2, new Name("Aditya", "Acharya"), "China",  score2);
-		Competitor c3 = new AdvancedCompetitor(3, new Name("Ishuv", "Giri"), "Pakistan",  score3);
+		Competitor c3 = new AdvancedCompetitor(3, new Name("Shyam", "Giri"), "Pakistan",  score3);
 
 		Competitor[] competitors = { c1, c2, c3 };
 

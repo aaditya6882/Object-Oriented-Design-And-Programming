@@ -13,5 +13,6 @@ public class ShootingCompetition extends Competition {
 		System.out.println("Country = " + competitor.getCountry());
 		System.out.println("Score = " + competitor.getOverallScore());
 		System.out.println("Competition Name = " + super.getCompetitionName());
+		System.out.println();
 	}
 }

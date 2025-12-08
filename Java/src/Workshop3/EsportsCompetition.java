@@ -21,6 +21,7 @@ public class EsportsCompetition extends Competition {
 		System.out.println("Score = " + competitor.getOverallScore());
 		System.out.println("Competition Name = " + super.getCompetitionName());
 		System.out.println("Team = " + teamName);
+		System.out.println();
 	}
 
 }
